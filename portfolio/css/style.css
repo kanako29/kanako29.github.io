@@ -1,0 +1,74 @@
+body {
+    background: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 1px solid #ddd;
+}
+
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin: 40px 0 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+section#introduction .left {
+    width: 200px;
+}
+
+section#introduction .left img {
+    width: 200px;
+    height: auto;
+}
+
+section#introduction .right {
+    width: 580px;
+}
+
+dl dt {
+    background: #ddd;
+    width: 200px;
+    line-height: 200px;
+    float: left;
+    text-align: center;
+}
+
+dl dd {
+    width: 180px;
+    height: 200px;
+    float: left;
+    margin: 0 0 20px 20px;
+}
+
+footer {
+    margin: 60px 0 20px;
+    text-align: center;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
